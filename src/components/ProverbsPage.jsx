@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { getTranslatorForLanguage } from '../translations';
 
 const ProverbsPage = () => {
-  // TODO: change this to something else, coming from the context
   const [proverbs, setProverbs] = useState([]);
+  // TODO: add something coming from the context here
 
   useEffect(() => {
     console.log(`fetching "${currentLanguage}" proverbs`);
